@@ -476,3 +476,24 @@ footer.sticky-footer {
     width: calc(100% - 55px);
   }
 }
+/* YouTube Responsive CSS for HubSpot */
+
+.hs-responsive-embed-youtube {
+
+position: relative;
+
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+
+padding-top: 25px;
+
+}
+
+.hs-responsive-embed-youtube iframe {
+
+position: absolute;
+
+width: 100%!important;
+
+height: 100%!important;
+
+}
